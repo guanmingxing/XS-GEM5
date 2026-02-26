@@ -49,9 +49,10 @@
           zlib
           zstd # xs-gem5 zstd checkpoint
 
+          grpc
           # The following dependencies are optional and seldom used
-          # protobuf # protobuf version is strictly enforced by gem5, not sure which version
-          # hdf5
+          protobuf # protobuf version is strictly enforced by gem5, not sure which version
+          hdf5
         ];
 
         # Development tools
@@ -60,7 +61,7 @@
           # Build & Development Tools
           gdb
           mold # Faster linking
-          # bintools # gold linker
+          bintools # gold linker
           ccache
           git
           valgrind
